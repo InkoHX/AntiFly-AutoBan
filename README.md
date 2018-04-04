@@ -1,5 +1,5 @@
 # AntiFly-AutoBan
-Flyを検出し自動でBanします。
+FlyHackを検出し自動でBanします。
 
 ## メリット
 1. 100%確実
