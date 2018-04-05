@@ -23,7 +23,7 @@ class Main extends \pocketmine\plugin\PluginBase implements \pocketmine\event\Li
     public function onLogin(\pocketmine\event\player\PlayerLoginEvent $event)
     {
         $player = $event->getPlayer();
-        if ($this->data->get($player->getName()) === "true")
+        if ($this->data->get($player->getName()))
         {
             $player->kick("§4You are banned\n§7Reason: §fFlyHack", false);
         }
